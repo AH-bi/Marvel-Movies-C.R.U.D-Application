@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+        mavenLocal() // <-- AJOUT
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS) // <-- MODIF
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal() // <-- AJOUT
+            }
+}
+
+rootProject.name = "Xmen"
+include ':app'
